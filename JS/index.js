@@ -47,7 +47,7 @@ function getUser() {
     }
   }
   
-  async function readTasks(mes) {
+  async function readTasks() {
     tasks = []
     const logTasks = await db
       .collection("tasks")
